@@ -12,7 +12,10 @@ public class Task1 {
             num[i] = (int) (Math.random() * 100);
             System.out.print(num[i] + " ");
         }
-        System.out.print(num[0] + " " + num[2] + " " + num[4]);
-
+        for (int i = 0; i < n; i += 2) {
+            System.out.print(num[i] + " ");
+            {
+            }
+        }
     }
 }
